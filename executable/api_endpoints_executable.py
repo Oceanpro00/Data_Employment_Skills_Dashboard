@@ -13,8 +13,6 @@ CORS(app, resources={r"/*": {"origins": "*"}},
     expose_headers=["Content-Type", "Authorization"],
     methods=["GET", "OPTIONS"])
 
-
-
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
 db = client["Cleaned_Job_Postings"]

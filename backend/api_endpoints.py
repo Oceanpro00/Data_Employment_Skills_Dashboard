@@ -6,8 +6,12 @@ from pymongo import MongoClient
 # Initialize Flask App
 app = Flask(__name__)
 
-# Ensure CORS allows all origins
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+# Allow CORS for all routes
+CORS(app, resources={r"/*": {"origins": "*"}}, 
+    supports_credentials=True, 
+    allow_headers=["Content-Type", "Authorization"],
+    expose_headers=["Content-Type", "Authorization"],
+    methods=["GET", "OPTIONS"])
 
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
