@@ -104,7 +104,7 @@ This diagram illustrates the **full process**, from **data collection to interac
 
 ### 🔧 Skill Fragmentation & Scope Limitation  
 - **Figure 4: Skill Frequency Distribution**  
-  ![Figure 4: Skill Frequency Distribution](resources/eda_1.3_skill_frequency_distribution_bar.png)  
+  ![Figure 4: Skill Frequency Distribution](resources/eda_1.1_skill_frequency_distribution_bar.png)  
 - Job postings frequently list **skills in inconsistent formats**, leading to **skill fragmentation**.  
 - Considering **dataset limitations, time constraints, and our current skill levels**, we decided to **narrow the scope** to **14 representative job titles** and focus our **skill extraction on the top 20 skills per job category**.  
 - Our approach ensures that the data remains **relatable, actionable, and as clean as possible**, reducing misinterpretation.  
