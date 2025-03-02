@@ -6,8 +6,12 @@ from pymongo import MongoClient
 # Initialize Flask App
 app = Flask(__name__)
 
-# Ensure CORS allows all origins
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+# Allow CORS for all routes
+CORS(app, resources={r"/*": {"origins": "https://your-username.github.io"}},
+    supports_credentials=True, 
+    allow_headers=["Content-Type", "Authorization"],
+    expose_headers=["Content-Type", "Authorization"],
+    methods=["GET", "OPTIONS"])
 
 
 # Connect to MongoDB
@@ -40,6 +44,8 @@ def home():
 # Define API Endpoints
 @app.route('/title_id/<int:id>', methods=['GET'])
 def classify_skill_hierarchy(id):
+    print(f"📡 Received request for title_id: {id} from {request.remote_addr}")  # Debug Log
+    
     # Validate the job_id input
     if not (1 <= id <= 14):
         return jsonify({"error": "Job ID must be a number between 1 and 14"}), 400
@@ -161,5 +167,5 @@ def get_all_jobs_info():
 
     return jsonify(results)
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)

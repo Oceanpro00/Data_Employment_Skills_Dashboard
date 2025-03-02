@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", async function () {
     const params = new URLSearchParams(window.location.search);
     const titleId = params.get("title_id") || "1";
-    const apiUrl = `miserably-quiet-seahorse.ngrok-free.app/title_id/${titleId}`;
+    const apiUrl = `https://miserably-quiet-seahorse.ngrok-free.app/title_id/${titleId}`;
+
 
     let allSkills = [];
     let checkedSkills = new Set();
