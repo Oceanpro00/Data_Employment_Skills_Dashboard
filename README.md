@@ -7,46 +7,59 @@
   <summary>📖 **Click to expand Table of Contents**</summary>
   
   ### 1. Introduction  
-  - Overview  
-  - Goals  
-  - Workflow  
+  - Project Overview  
+  - End Goals  
+  - System Workflow Overview  
 
   ### 2. Scope & Limitations  
-  - Dataset Bias  
-  - Job Title Standardization  
-  - Skill Fragmentation  
+  - U.S.-Centric Dataset Bias  
+  - Job Title Standardization Challenges  
+  - Skill Fragmentation & Scope Limitation  
 
   ### 3. Repository Structure  
 
   ### 4. Project Workflow  
-  - Sprint-Based Approach  
+  - Sprint-Based Development Approach  
   - Sprint Overview  
 
   ### 5. Data Engineering  
-  - Data Sources  
-  - Data Cleaning  
-  - ETL Process  
+  - Data Sources & Licensing  
+  - Data Cleaning & Processing  
+  - Job Title Normalization & Mapping  
+  - ETL Workflow  
 
-  ### 6. Skill Extraction  
+  ### 6. Skill Extraction & Ranking  
   - Methodology  
-  - Challenges  
+  - Challenges & Solutions  
 
-  ### 7. Database & API  
-  - Schema  
+  ### 7. Database & API Development  
+  - Database Choice & Schema  
   - API Functionality  
 
-  ### 8. Dashboard & Visualization  
-  - Frontend Features  
-  - Job Categorization  
-  - Ethics & Considerations  
+  ### 8. Interactive Dashboard & Visualization  
+  - Frontend Implementation  
+  - Job Categorization Index Page  
+  - Job-Specific Dashboard  
+  - Ethics & Considerations Page  
+  - User Experience & Design  
 
-  ### 9. Installation  
-  - Requirements  
-  - Setup & Execution  
+  ### 9. Future Enhancements & Next Steps  
+  - Expanding Job Categorization & Global Listings  
+  - Live Data Updates & Web Scraping  
+  - Custom Search Filters & Advanced User Features  
+  - Improved Skill Extraction & NLP Integration  
+  - User Authentication & Profile-Based Recommendations  
 
-  ### 10. Conclusion  
+  ### 10. Installation & Execution  
+  - Pre-Requisites  
+  - Installation Steps  
+  - Database Setup  
+  - Running the Project  
+  - Platform-Specific Considerations  
+
+  ### 11. Conclusion  
   - Key Takeaways  
-  - Final Thoughts  
+  - Future Enhancements  
 
 </details>
 
@@ -87,7 +100,7 @@ This diagram illustrates the **full process**, from **data collection to interac
 
 ---
 
-## 🔍 Scope & Limitations  
+## 2. 🔍 Scope & Limitations  
 
 ### 🌍 U.S.-Centric Dataset Bias  
 - **Figure 2: Job Postings by Location**  
@@ -112,7 +125,7 @@ This diagram illustrates the **full process**, from **data collection to interac
 
 ---
 
-## 2. Repository Structure
+## 3. Repository Structure
 
 ```
 Data_Employment_Skills_Dashboard/
@@ -176,7 +189,7 @@ Data_Employment_Skills_Dashboard/
 
 ---
 
-## 3. Project Workflow Overview  
+## 4. Project Workflow Overview  
 
 ### 🚀 Sprint-Based Development Approach  
 
@@ -261,7 +274,7 @@ If time and resources permit, additional **AWS integrations** may be implemented
 
 ---
 
-## 3. Data Engineering Process  
+## 5. Data Engineering Process  
 
 ### 📂 Data Sources & Licensing  
 
@@ -308,7 +321,7 @@ To ensure structured and usable data, we implemented an **Extract, Transform, Lo
 
 ---
 
-## 5. Skill Extraction & Ranking  
+## 6. Skill Extraction & Ranking  
 
 ### 📊 Methodology  
 
@@ -344,7 +357,7 @@ A **table listing the least common skills**, indicating potential niche job requ
 
 ---
 
-## 6. Database & API Development  
+## 7. Database & API Development  
 
 ### 📂 Database Choice & Justification  
 
@@ -382,7 +395,7 @@ This setup allows users to explore **data-driven career insights** dynamically w
 
 ---
 
-## 7. Interactive Dashboard & Visualization  
+## 8. Interactive Dashboard & Visualization  
 
 ### 🖥️ Frontend Implementation  
 
@@ -455,7 +468,7 @@ This structured dashboard provides **data-driven career insights**, helping user
 
 ---
 
-## 8. Future Enhancements & Next Steps  
+## 9. Future Enhancements & Next Steps  
 
 As a **Minimum Viable Product (MVP)**, the current **Data Employment Skills Dashboard** provides a structured and interactive way for job seekers to explore **in-demand skills and job trends**. However, several areas can be enhanced for greater functionality, accuracy, and usability.  
 
@@ -520,7 +533,7 @@ These enhancements will **ensure the dashboard remains relevant, data-driven, an
 
 ---
 
-## 9. Installation & Execution  
+## 10. Installation & Execution  
 
 ### 🛠️ Pre-Requisites  
 
@@ -601,7 +614,7 @@ This script will:
 
 ---  
 
-## 10. Conclusion
+## 11. Conclusion
 
 The **Data Employment Skills Dashboard** provides job seekers with valuable insights into the most in-demand skills within Data Science roles. By leveraging real-world job postings, this tool enables users to explore job market trends, assess their skillset against industry standards, and make informed career decisions.
 
