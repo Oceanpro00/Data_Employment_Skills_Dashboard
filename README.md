@@ -40,24 +40,28 @@
   - Frontend Implementation  
   - Job Categorization Index Page  
   - Job-Specific Dashboard  
-  - Ethics & Considerations Page  
-  - User Experience & Design  
 
-  ### 9. Future Enhancements & Next Steps  
+  ### 9. ⚖️ Ethics & Attribution  
+  - Data Source & Licensing  
+  - Bias & Limitations  
+  - Attribution & Design Influence  
+  - Ethical Data Practices  
+
+  ### 10. Future Enhancements & Next Steps  
   - Expanding Job Categorization & Global Listings  
   - Live Data Updates & Web Scraping  
   - Custom Search Filters & Advanced User Features  
   - Improved Skill Extraction & NLP Integration  
   - User Authentication & Profile-Based Recommendations  
 
-  ### 10. Installation & Execution  
+  ### 11. Installation & Execution  
   - Pre-Requisites  
   - Installation Steps  
   - Database Setup  
   - Running the Project  
   - Platform-Specific Considerations  
 
-  ### 11. Conclusion  
+  ### 12. Conclusion  
   - Key Takeaways  
   - Future Enhancements  
 
@@ -468,7 +472,36 @@ This structured dashboard provides **data-driven career insights**, helping user
 
 ---
 
-## 9. Future Enhancements & Next Steps  
+## 9. Ethics & Attribution  
+
+Ensuring transparency and responsible data usage is a critical part of this project. Below, we outline key ethical considerations, dataset limitations, and attribution to external sources that influenced our work.  
+
+### 🔍 **Data Source & Licensing**  
+- This project uses **publicly available job postings data** from Kaggle, licensed under the **Open Data Commons Attribution License (ODC-By) v1.0**.  
+- The dataset may contain **biases**, as it is **heavily U.S.-centric** and may not fully represent global job markets.  
+- We **do not claim ownership** over the dataset and encourage users to **validate findings** before making career decisions.  
+
+### ⚠️ **Bias & Limitations**  
+- **Geographical Bias**: Most job postings originate from the U.S., limiting insights for international users.  
+- **Job Title Standardization**: Since job titles vary significantly across companies, **standardization methods may not capture every nuance**.  
+- **Skill Fragmentation**: Many job postings list skills in **inconsistent formats**, leading to challenges in accurate extraction and ranking.  
+- **No AI/ML Used**: Skill extraction was performed using **Regex-based text normalization**, avoiding potential ethical concerns around **biased AI models**.  
+
+### 🏗 **Attribution & Design Influence**  
+- The structure of our **hub/index design** was **influenced by** a **mini project from Masynctech**, which explains **how to create an interactive hub layout for project navigation**.  
+- Video reference: [Masynctech - Interactive Hub Mini Project](https://www.youtube.com/watch?v=vU7qhSql-GY&ab_channel=masynctech).  
+- Our project builds upon this design and sit layout, **customizing it for a simplified job skills dashboard** while maintaining an intuitive, user-friendly experience.  
+
+### ✅ **Ethical Data Practices**  
+- 📌 **No Personally Identifiable Information (PII)**: Our dataset does not include sensitive user data.  
+- 🔄 **Transparency**: We document our **methodology, data sources, and limitations** openly.  
+- 🤝 **Community Collaboration**: Future iterations may incorporate **user feedback** to enhance fairness and usability.  
+
+By keeping these ethical considerations in mind, we aim to provide **valuable, data-driven insights** while respecting responsible data use and transparency. 🚀  
+
+---
+
+## 10. Future Enhancements & Next Steps  
 
 As a **Minimum Viable Product (MVP)**, the current **Data Employment Skills Dashboard** provides a structured and interactive way for job seekers to explore **in-demand skills and job trends**. However, several areas can be enhanced for greater functionality, accuracy, and usability.  
 
@@ -533,7 +566,7 @@ These enhancements will **ensure the dashboard remains relevant, data-driven, an
 
 ---
 
-## 10. Installation & Execution  
+## 11. Installation & Execution  
 
 ### 🛠️ Pre-Requisites  
 
@@ -614,7 +647,7 @@ This script will:
 
 ---  
 
-## 11. Conclusion
+## 12. Conclusion
 
 The **Data Employment Skills Dashboard** provides job seekers with valuable insights into the most in-demand skills within Data Science roles. By leveraging real-world job postings, this tool enables users to explore job market trends, assess their skillset against industry standards, and make informed career decisions.
 
