@@ -1,5 +1,5 @@
 # Data Employment Skills Dashboard  
-![Data Employment Skills Dashboard Snapshot](resources/dashboard.html.png)  
+![Data Employment Skills Dashboard Snapshot](resources/index.html.png)  
 ---
 
 ## 📖 Table of Contents  
